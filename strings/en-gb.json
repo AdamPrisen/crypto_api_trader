@@ -1,0 +1,25 @@
+{
+    "exchange_name_exists": "An Exchange with name '{}' already exists",
+    "exchange_inserting_error": "Internal server error, failed to create exchange",
+    "exchange_deposit_error": "Internal server error, failed to deposit",
+    "exchange_id_not_exists": "An Exchange with id '{}' not exists",
+
+    "cryptocurrency_low_shortcut": "Shortcut should contain minimal 3 letters",
+    "cryptocurrency_updating_error": "Internal server error, failed to update cryptocurrencie",
+    "cryptocurrency_same_as_exchange": "Cryptorcurrency cannot has same shortcut as exchage currency",
+    "currency_invalid_action": "Invalid action",
+    "currency_shortcut_required": "Field shortcut is required",
+    "currency_not_exists": "Currency with shortcut '{}' not exists",
+    "lack_of_resources": "Lack of resources, you have only {} {}",
+    "trade_error": "Internal server error, failed to make trade",
+    "trades_error": "Internal server error, failed to load trades",
+    "trade_success": "Your trade was succeessful - {} {}",
+    "invalid_date": "Invalid date format (eg: 2020-06-22T12:12:12)",
+    "invalid_offset": "Invalid offset type, offset has to be int type",
+    "invalid_limit": "Invalid limit type, limit has to be int type",
+    "rate_above_zero": "Rate has to be greather than zero",
+    "deposit_above_zero": "Deposit has to be greather than zero",
+    "trade_amount_above_zero": "Trade has to be greather than zero"
+
+    
+}
