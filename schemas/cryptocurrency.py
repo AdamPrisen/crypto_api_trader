@@ -11,7 +11,7 @@ class CryptocurrencySchema(ma.SQLAlchemyAutoSchema):
         load_instance = True
         include_fk = True
     shortcut = fields.Str(required=True, validate=[validate.Length(min=3)])
-    rate = fields.Float()
+    rate = fields.Float(required=True)
 
     @validates('rate')
     def validate_numbers(self,value):
