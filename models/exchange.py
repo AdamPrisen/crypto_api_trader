@@ -1,5 +1,4 @@
 from db import db
-from models.cryptocurrency import CryptocurrencyModel
 
 
 class ExchangeModel(db.Model):

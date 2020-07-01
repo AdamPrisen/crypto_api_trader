@@ -6,7 +6,6 @@ from schemas.exchange import ExchangeSchema
 from libs.strings import gettext
 
 exchange_schema= ExchangeSchema()
-exchange_list_schema = ExchangeSchema(many=True)
 
 class Exchange(Resource):
     @classmethod
@@ -25,8 +24,3 @@ class Exchange(Resource):
 
         return exchange_schema.dump(exchange), 201
         
-    @classmethod
-    def get(cls):
-        return{
-            "exchanges": exchange_list_schema.dump(ExchangeModel.find_all())
-        }, 200
