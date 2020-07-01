@@ -22,7 +22,7 @@ Use  [pipenv](https://github.com/pypa/pipenv) to install all requirments
 pipenv install
 pipenv shell
 ```
-Or install all Extensions manually according [Pipfile](Pipfile)
+Or install all extensions according to[requirements.txt](requirements.txt)
 
 ## Configuration
 1. **Required:** make your own **.env** file according to [.env.example](.env.example)
